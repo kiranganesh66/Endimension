@@ -6,6 +6,7 @@ const AddProduct = () => {
   const [category, setCategory] = useState("");
   const [name, setName] = useState("");
   const [description, setDescription] = useState("");
+
   const [price, setPrice] = useState("");
 
   const handleSubmit = (e) => {
