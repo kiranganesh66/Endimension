@@ -1,0 +1,83 @@
+/* components/ProductList/styles.css */
+
+.product-list-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.product-list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.product-list-header h1 {
+  margin: 0;
+}
+
+.product-list-link {
+  text-decoration: none;
+  padding: 8px 16px;
+  background-color: #1890ff;
+  color: #fff;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.product-list-link:hover {
+  background-color: #40a9ff;
+}
+
+/* components/AddProduct/styles.css */
+
+.add-product-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.add-product-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-product-form label {
+  margin-bottom: 10px;
+}
+
+.add-product-form input {
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.add-product-form button {
+  padding: 10px 20px;
+  background-color: #1890ff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.add-product-form button:hover {
+  background-color: #40a9ff;
+}
+
+.add-product-form .back-link {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.add-product-form .back-link a {
+  text-decoration: none;
+  color: #1890ff;
+}
+
+.add-product-form .back-link a:hover {
+  text-decoration: underline;
+}
